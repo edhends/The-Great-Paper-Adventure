@@ -1,14 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/// <summary>
-/// Player controller and behavior
-/// </summary>
-
 public class PlayerScript : MonoBehaviour 
-	{
+{
 		// Ship speed
-		public Vector2 speed = new Vector2(50,50);
+		public Vector2 speed = new Vector2(15,15);
 
 		// Movement is stored
 		private Vector2 movement;
